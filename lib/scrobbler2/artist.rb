@@ -14,6 +14,7 @@ module Scrobbler2
     get_resource :top_fans, :root => 'topfans'
     get_resource :top_tags, :root => 'toptags'
     get_resource :top_tracks, :root => 'toptracks'
+    get_resource :images, :root => 'images'
     
     get_resource :tags, :root=> "tags", :auth => true
 
