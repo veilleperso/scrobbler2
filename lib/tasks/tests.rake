@@ -1,4 +1,7 @@
 begin
+  require 'rake/testtask'
+  require 'spec/rake/spectask'
+  
   desc "Run all examples"
   Spec::Rake::SpecTask.new('test:unit') do |t|
     t.spec_files = FileList['test/unit/*_spec.rb']
