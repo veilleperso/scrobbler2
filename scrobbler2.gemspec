@@ -9,9 +9,6 @@ Gem::Specification.new do |s|
   s.date = %q{2009-04-25}
   s.description = %q{A ruby library for accessing the last.fm v2 webservices}
   s.email = %q{gingerhendrix@gmail.com}
-  s.extra_rdoc_files = [
-    "README"
-  ]
   s.files = [
     "Rakefile",
     "VERSION.yml",
