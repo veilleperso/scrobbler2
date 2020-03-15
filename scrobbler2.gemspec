@@ -119,7 +119,6 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/gingerhendrix/scrobbler2}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.0}
   s.summary = %q{A ruby library for accessing the last.fm v2 webservices}
   s.test_files = [
     "test/acceptance/test_helper.rb",
