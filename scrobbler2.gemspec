@@ -116,7 +116,6 @@ Gem::Specification.new do |s|
     "test/unit/user_spec.rb",
     "test/unit/venue_spec.rb"
   ]
-  s.has_rdoc = true
   s.homepage = %q{http://github.com/gingerhendrix/scrobbler2}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
